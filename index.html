@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>1D Cart</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+    <div class="container"> 
+   <h1>1D Cart</h1>
+   <p>You Can buy beginner coding courses from here for just 1$ and Every course is taught by  professionals</p>
+   <p>We have also a new version of website for average people.</p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">Html beginner Course</h3>
+            <p>This is  absolutely amazing course for beginners in Html.</p>
+            <p class="price">$1.00</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Css beginner Course</h3>
+            <p>This course will really help you in acquiring knowledge in Css</p>
+            <p class="price">$1.00</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Javascript beginner course</h3>
+            <p>This course is really helpful for beginners  in javascript.</p>
+            <p class="price">$1.00</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <a href="https://1dcartpayments.blogspot.com/2023/06/1d-cart-payments.html?m=1"><button>CheckOut</button></a>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  <footer class="credit">Author: Ayan Sharma - Distributed By: <a title="Awesome web design code & scripts" href="https://www.codehim.com?source=demo-page" target="_blank">Github</a></footer>
+
+        <script  src="./js/script.js"></script> 
+  </body>
+</html>
